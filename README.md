@@ -1,26 +1,26 @@
-# Chronic Kidney Disease Prediction 🧠💉
+# Chronic Kidney Disease Prediction 
 
 A Machine Learning-based web application for predicting the presence of Chronic Kidney Disease (CKD) based on clinical parameters. This project utilizes data preprocessing, model training, evaluation, and deployment using modern tools and techniques.
 
-## 🔬 Problem Statement
+## Problem Statement
 
 Chronic Kidney Disease (CKD) is a serious public health issue that, if not detected early, can lead to permanent kidney failure. This project aims to automate the prediction process using machine learning to help doctors and patients make better decisions.
 
 ---
 
-## 🧰 Tech Stack Used
+## Tech Stack Used
 
 | Layer        | Tools/Technologies                                 |
 |--------------|----------------------------------------------------|
-| 👩‍💻 Language   | Python                                            |
-| 📊 ML Models | Random Forest, Logistic Regression, SVM, etc.      |
-| 📦 Libraries  | Pandas, NumPy, Matplotlib, Seaborn, scikit-learn  |
-| 🌐 Deployment | Flask, Streamlit (optional), GitHub               |
-| 🧪 Dataset    | UCI CKD Dataset (via Kaggle or public source)     |
+|  Language    | Python                                            |
+|  ML Models   | Random Forest, Logistic Regression, SVM, etc.      |
+|  Libraries   | Pandas, NumPy, Matplotlib, Seaborn, scikit-learn  |
+|  Deployment  | Flask, Streamlit (optional), GitHub               |
+|  Dataset     | UCI CKD Dataset (via Kaggle or public source)     |
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── Python Notebooks/
@@ -37,7 +37,7 @@ Chronic Kidney Disease (CKD) is a serious public health issue that, if not detec
 
 ---
 
-## 📊 Dataset Info
+## Dataset Info
 
 - **Source**: UCI Machine Learning Repository / Kaggle
 - **Features**:  
@@ -47,7 +47,7 @@ Chronic Kidney Disease (CKD) is a serious public health issue that, if not detec
 
 ---
 
-## 🧠 Machine Learning Workflow
+## Machine Learning Workflow
 
 1. **Data Cleaning**: Handling missing values, encoding categorical data
 2. **Exploratory Data Analysis**: Visualizing distributions and relationships
@@ -59,17 +59,17 @@ Chronic Kidney Disease (CKD) is a serious public health issue that, if not detec
 
 ---
 
-## ✅ Model Accuracy (Example)
+## Model Accuracy (Example)
 
 | Model               | Accuracy |
-|--------------------|----------|
+|---------------------|----------|
 | Random Forest       | 98%      |
 | Logistic Regression | 95%      |
 | SVM                 | 94%      |
 
 ---
 
-## 💻 How to Run Locally
+## How to Run Locally
 
 1. **Clone the repository**
    ```bash
@@ -87,7 +87,7 @@ Chronic Kidney Disease (CKD) is a serious public health issue that, if not detec
    jupyter notebook
    ```
 
-4. *(Optional)* **Run Flask App**
+4. **Run Flask App**
    ```bash
    python app.py
    ```
